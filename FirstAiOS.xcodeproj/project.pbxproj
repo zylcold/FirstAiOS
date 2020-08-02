@@ -188,6 +188,7 @@
 				503F5F3324D6FCDE007FEC08 /* Sources */,
 				503F5F3424D6FCDE007FEC08 /* Frameworks */,
 				503F5F3524D6FCDE007FEC08 /* Resources */,
+				D0E3E4438F21B4DB24D7C310 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -225,6 +226,7 @@
 				503F5F5924D6FCDF007FEC08 /* Sources */,
 				503F5F5A24D6FCDF007FEC08 /* Frameworks */,
 				503F5F5B24D6FCDF007FEC08 /* Resources */,
+				3E9B937D2F10DA1FAFDCCED1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -305,6 +307,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		3E9B937D2F10DA1FAFDCCED1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirstAiOS-FirstAiOSUITests/Pods-FirstAiOS-FirstAiOSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirstAiOS-FirstAiOSUITests/Pods-FirstAiOS-FirstAiOSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FirstAiOS-FirstAiOSUITests/Pods-FirstAiOS-FirstAiOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		562D91DA2EB384E1BE4E4A83 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -347,6 +366,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0E3E4438F21B4DB24D7C310 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirstAiOS/Pods-FirstAiOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirstAiOS/Pods-FirstAiOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FirstAiOS/Pods-FirstAiOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D8D862251073039574789B31 /* [CP] Check Pods Manifest.lock */ = {

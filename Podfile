@@ -6,6 +6,7 @@ target 'FirstAiOS' do
   use_frameworks!
 
   # Pods for FirstAiOS
+  pod 'AFNetworking'
 
   target 'FirstAiOSTests' do
     inherit! :search_paths
