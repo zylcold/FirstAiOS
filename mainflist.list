@@ -13,29 +13,13 @@
 					<key>url</key>
 					<string>https://dl.jiayuan.com/baihe_enterprise_10.19.0_202009241417.ipa</string>
 				</dict>
-				<dict>
-					<key>kind</key>
-					<string>full-size-image</string>
-					<key>needs-shine</key>
-					<true/>
-					<key>url</key>
-					<string>https://bsssit.cjh.com/dtap/public/app/ios/configFile/audiopro.png</string>
-				</dict>
-				<dict>
-					<key>kind</key>
-					<string>display-image</string>
-					<key>needs-shine</key>
-					<true/>
-					<key>url</key>
-					<string>https://bsssit.cjh.com/dtap/public/app/ios/configFile/audiopro.png</string>
-				</dict>
 			</array>
 			<key>metadata</key>
 			<dict>
 				<key>title</key>
 				<string>话术</string>
 				<key>bundle-version</key>
-				<string>1.0.0</string>
+				<string>10.19.0</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>bundle-identifier</key>
